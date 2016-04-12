@@ -19,7 +19,7 @@
     "spawn",
     "process",
     "kill",
-    "module",
+    "module"
   ],
   "author": "Souler <soulerhyd@gmail.com>",
   "license": "MIT",

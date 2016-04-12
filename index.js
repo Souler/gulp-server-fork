@@ -16,6 +16,9 @@ var _spawn = function(_conf) {
 	if (!_conf)
 		throw new gutil.PluginError('gulp-server-fork', 'No config provided');
 
+	if (typeof _conf == 'string')
+		_conf = { module: _conf };
+
 	if (!_conf.module)
 		throw new gutil.PluginError('gulp-server-fork', 'No module to fork provided');
 
